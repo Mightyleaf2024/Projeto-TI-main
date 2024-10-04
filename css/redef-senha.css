@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img1 {
+    height: 10vh;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4ffea;
+    color: #333;
+}
+
+
+header {
+    background-color: #9addbb;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    margin-left:8vh;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.login-section, .signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+
+.login-box, .signup-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-box h2, .signup-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-box label, .signup-box label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.login-box input, .signup-box input {
+    width: 100%;
+    font-size: 1.8vh;
+    height: 5.3vh;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box button, .signup-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover, .signup-box button:hover {
+    background-color: #45a049;
+}
+
+.login-box p, .signup-box p {
+    margin-top: 20px;
+}
+
+.login-box a, .signup-box a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-box a:hover, .signup-box a:hover {
+    text-decoration: underline;
+}
+body{
+    background-image: url(../img/dec_fundo.png);
+    background-repeat: no-repeat;
+}
