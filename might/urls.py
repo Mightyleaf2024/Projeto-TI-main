@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from MightyLeaf.views import home,log,plantas,redefsenha,cad
+from MightyLeaf.views import home,log,plantas,redefsenha,cad,teste
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,4 +25,5 @@ urlpatterns = [
     path('cad/',cad,name = 'cad'),
     path('redefsenha/',redefsenha,name = 'redefsenha'),
     path('log/',log,name = 'plantas'),
+    path('teste/',teste,name = 'teste'),
 ]

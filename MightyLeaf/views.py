@@ -12,3 +12,5 @@ def redefsenha(request): #vai fazer uma requisição ao servidor
     return render(request,'redefsenha.html')#trazendo a pagina ao html
 def cad(request): #vai fazer uma requisição ao servidor
     return render(request,'cad.html')#trazendo a pagina ao html
+def teste(request): #vai fazer uma requisição ao servidor
+    return render(request,'teste.html')#trazendo a pagina ao html
