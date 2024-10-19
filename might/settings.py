@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'might.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'',
+        'NAME':'mighty',
         'USER':'root',
-        'PASSWORD':'',
+        'PASSWORD':'9982',
         'HOST':'localhost',
         'PORT':'3306',
     }
