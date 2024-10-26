@@ -56,7 +56,7 @@ ROOT_URLCONF = 'might.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'mighty',
         'USER':'root',
-        'PASSWORD':'9982',
+        'PASSWORD':'',
         'HOST':'localhost',
         'PORT':'3306',
     }
