@@ -2,15 +2,15 @@ from django.shortcuts import render
 
 from django.contrib import messages
 
-def home(request): #vai fazer uma requisição ao servidor
-    return render(request,'home.html')#trazendo a pagina ao html
-def log(request): #vai fazer uma requisição ao servidor
-    return render(request,'log.html')#trazendo a pagina ao html
-def plantas(request): #vai fazer uma requisição ao servidor
-    return render(request,'plantas.html')#trazendo a pagina ao html
-def redefsenha(request): #vai fazer uma requisição ao servidor
-    return render(request,'redefsenha.html')#trazendo a pagina ao html
-def cad(request): #vai fazer uma requisição ao servidor
-    return render(request,'cad.html')#trazendo a pagina ao html
-def teste(request): #vai fazer uma requisição ao servidor
-    return render(request,'teste.html')#trazendo a pagina ao html
+def home(request): 
+    return render(request,'home.html')
+def log(request): 
+    return render(request,'log.html')
+def plantas(request): 
+    return render(request,'plantas.html')
+def redefsenha(request): 
+    return render(request,'redefsenha.html')
+def cad(request): 
+    return render(request,'cad.html')
+def teste(request): 
+    return render(request,'teste.html')

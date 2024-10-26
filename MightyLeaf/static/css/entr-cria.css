@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+html{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 }
 .img1 {
     height: 10vh;
@@ -23,20 +28,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header .logo {
-    margin-left:38vh;
+    margin-left: 2vh;
     font-size: 4vh;
     display: flex;
     align-items: center;
-
 }
 
 header nav ul {
     list-style: none;
     display: flex;
     align-items: center;
+    margin-right: 2vh;
 }
 
 header nav ul li {
@@ -52,6 +58,57 @@ header nav ul li a {
 header nav ul li a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Empilhar itens no topo um do outro */
+    }
+
+    header .logo {
+        margin-left: 0;
+        font-size: 3vh;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        font-size: 2.5vh;
+    }
+
+    header nav ul {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    header nav ul.show-menu {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 2.5vh;
+        cursor: pointer;
+        margin-right: 2vh;
+    }
+}
+
 .hero {
     background: url('plants-banner.jpg') no-repeat center center/cover;
     height: 60vh;
@@ -95,7 +152,6 @@ header nav ul li a:hover {
 }
 
 .category {
-    flex-basis: 22%;
     border-radius: 10px;
     background-color: white;
     margin: 10px;
