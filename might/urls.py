@@ -16,14 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from MightyLeaf.views import home,log,plantas,redefsenha,cad,teste
+from MightyLeaf import views
+from MightyLeaf.views import home,loguin,plantas,redefsenha,cadastro,teste
+
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',home),
-    path('plantas/',plantas,name = 'plantas'),
-    path('cad/',cad,name = 'cad'),
-    path('redefsenha/',redefsenha,name = 'redefsenha'),
-    path('log/',log,name = 'plantas'),
-    path('teste/',teste,name = 'teste'),
+    path('', home, name='home'),
+    path('plantas/', plantas, name='plantas'),
+    path('redefsenha/', redefsenha, name='redefsenha'),
+    path('cad/', cadastro, name='cadastro'),
+    path('teste/', teste, name='teste'),
+    path('log/', loguin, name='login'),
 ]

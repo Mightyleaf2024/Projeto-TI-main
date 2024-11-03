@@ -27,14 +27,14 @@
 
     <section class="login-section">
         <div class="login-box">
-            <h2>Entrar</h2>
-            <form action="#" method="POST">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" required>
-                <button type="submit">Entrar</button>
-            </form>
+            <h2>Login</h2>
+                <form method="post">
+                    {% csrf_token %}
+                    <input type="text" name="username" placeholder="Nome de usuário">
+                    <input type="password" name="password" placeholder="Senha">
+                    <button type="submit">Login</button>    
+                </form>
+
             <p>Esqueceu sua Senha ?  <a href="/redefsenha">Recuperar Senha</a></p>
         </div>
     </section>
