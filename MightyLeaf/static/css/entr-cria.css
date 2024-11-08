@@ -61,7 +61,7 @@ header nav ul li a:hover {
 
 @media (max-width: 768px) {
     header {
-        flex-direction: column; /* Empilhar itens no topo um do outro */
+        flex-direction: column;
     }
 
     header .logo {
