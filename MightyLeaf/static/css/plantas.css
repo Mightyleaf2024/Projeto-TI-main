@@ -76,3 +76,11 @@ header nav ul {
 .category:hover {
     transform: scale(1.05);
 }
+.ENC{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+    padding-right: 4vh;
+    color: white;
+}
