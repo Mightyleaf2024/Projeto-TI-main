@@ -195,3 +195,11 @@ footer ul li a {
 footer ul li a:hover {
     text-decoration: underline;
 }
+.ENC{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+    padding-right: 4vh;
+    color: white;
+}

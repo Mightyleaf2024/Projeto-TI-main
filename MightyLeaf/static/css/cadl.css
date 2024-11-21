@@ -25,7 +25,7 @@ header {
     align-items: center;
 }
 header .logo {
-    margin-left:8vh;
+    margin-right:10vh;
     font-size: 4vh;
     display: flex;
     align-items: center;
@@ -103,4 +103,12 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top:3.2vh;
+}
+.ENC{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+    padding-right: 4vh;
+    color: white;
 }
