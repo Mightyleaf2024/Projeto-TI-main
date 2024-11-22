@@ -12,6 +12,8 @@ def redefsenha(request):
     return render(request,'redefsenha.html')
 def teste(request): 
     return render(request,'teste.html')
+def conta(request): 
+    return render(request,'conta.html')
 
 def cadastro(request):
     if request.method == 'POST':
