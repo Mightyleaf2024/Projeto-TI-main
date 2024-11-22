@@ -1,23 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minha Conta</title>
     <link rel="stylesheet" href="../static/css/conta.css">
 </head>
 <body>
     <header>
-        cabeçalho
+        <nav>
+            <ul>
+                <li><a href="/">Início</a></li>
+                <li><a href="/cuidados">Cuidados</a></li>
+                <li><a href="/logout">Encerrar Sessão</a></li>
+            </ul>
+        </nav>
+        <h1>Minha Conta</h1>
     </header>
 
     <main>
-        <form class = "containe" raction="">        
-            <div class="card">aaa</div>
-            <div class="card">aa</div>
-            <div class="card">aaa</div>
-        </form>
+        <section class="user-info">
+            <h2>Bem-vindo, [Nome do Usuário]</h2>
+            <p>Aqui estão as plantas que você adicionou:</p>
+        </section>
+
+        <section class="user-plants">
+            <div class="plant" id="plant-template" style="display: none;">
+                <img src="" alt="Imagem da Planta">
+                <h3 class="plant-name"></h3>
+                <p class="plant-description"></p>
+                <button class="remove-plant">Remover</button>
+            </div>
+        </section>
     </main>
 
+    <footer>
+        <p>© 2024 Mighty Leaf - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../static/js/conta.js"></script>
 </body>
 </html>
