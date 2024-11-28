@@ -203,3 +203,8 @@ footer ul li a:hover {
     padding-right: 4vh;
     color: white;
 }
+.category img{
+    height: 200px;
+    border-radius: 5px  ;
+    object-fit: cover;
+}
