@@ -59,56 +59,6 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-
-    header .logo {
-        margin-left: 0;
-        font-size: 3vh;
-    }
-
-    header nav ul {
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        margin: 10px 0 0 0;
-    }
-
-    header nav ul li {
-        margin: 10px 0;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        padding: 10px;
-    }
-
-    header .logo {
-        font-size: 2.5vh;
-    }
-
-    header nav ul {
-        display: none; 
-        flex-direction: column;
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    header nav ul.show-menu {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: block;
-        font-size: 2.5vh;
-        cursor: pointer;
-        margin-right: 2vh;
-    }
-}
-
 .hero {
     background: url('plants-banner.jpg') no-repeat center center/cover;
     height: 60vh;

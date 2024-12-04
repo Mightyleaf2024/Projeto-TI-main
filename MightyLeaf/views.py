@@ -14,6 +14,8 @@ def teste(request):
     return render(request,'teste.html')
 def conta(request): 
     return render(request,'conta.html')
+def Vconta(request): 
+    return render(request,'Vconta.html')
 
 def cadastro(request):
     if request.method == 'POST':
