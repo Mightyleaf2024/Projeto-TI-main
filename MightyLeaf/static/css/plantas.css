@@ -84,3 +84,11 @@ header nav ul {
     padding-right: 4vh;
     color: white;
 }
+.sub1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2vh;
+}
+.dropdown{
+    margin: 5px;
+}

@@ -29,7 +29,7 @@ header .logo {
     font-size: 4vh;
     display: flex;
     align-items: center;
-    margin: 5px;
+    margin: 10px;
 }
 
 
@@ -113,8 +113,16 @@ footer {
     padding-right: 4vh;
     color: white;
 }
-.dropdown a{
+.sub1{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 2vh;
+}
+.sub2{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2vh;
+}
+.dropdown{
+    display: flex;
 }
