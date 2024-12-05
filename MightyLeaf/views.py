@@ -36,7 +36,7 @@ def cadastro(request):
 
     return render(request, 'cad.html')
 
-def loguin(request):
+def login(request):
     if request.method == 'POST':
         username = request.POST['username']
         password = request.POST['password']
